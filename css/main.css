@@ -26,6 +26,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  max-width: 320px;
+  margin: auto;
 }
 
 a {
@@ -37,6 +39,17 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
+  max-width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.end-main {
+  line-height: 2;
 }
 
 /* ====================================
