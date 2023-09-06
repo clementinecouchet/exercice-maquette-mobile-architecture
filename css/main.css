@@ -50,12 +50,14 @@ video {
 footer {
   background-color: black;
   color: white;
+  padding: 30px 0 36px 7px;
 }
 
 nav {
   flex-direction: row;
   display: flex;
   gap: 17px;
+  padding: 20px 215px 53px 8px;
 }
 
 .infos,
@@ -65,21 +67,57 @@ h3 {
   font-size: 12px;
 }
 
+h1,
+h2 {
+  font-weight: 400;
+  margin-left: 7px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 10px 77px 47px 7px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
 h3 {
   font-weight: 400;
   font-weight: bolder;
 }
 
-.infos {
-  display: flex;
-  flex-direction: column;
+.infos,
+footer {
   line-height: 1.2;
 }
 
-.end-main {
-  line-height: 2;
+.infos a {
+  text-decoration: underline;
 }
 
+.infos p {
+  margin-bottom: 16px;
+}
+
+.infos {
+  margin: 0 284px 10px 9px;
+}
+
+.explication {
+  padding: 54px 77px 56px 7px;
+}
+
+.end-main {
+  margin: 28px 0 16px;
+  line-height: 1;
+  text-align: center;
+}
+
+.Sources {
+  margin-top: 22px;
+  font-size: 10px;
+}
 /* ====================================
 // base rules
 // ==================================== */
